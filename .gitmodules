@@ -1,0 +1,3 @@
+[submodule "c2.js"]
+	path = submodules/c2.js
+	url = https://github.com/ren-yuan/c2.js.git

@@ -1,0 +1,17 @@
+{
+  "name": "code-visualizations",
+  "module": "index.ts",
+  "scripts": {
+    "prebuild":"bun install",
+    "build":"bun build index.ts --outfile=index.js",
+    "prestart":"bun run build",
+    "start": "bun x serve ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}
